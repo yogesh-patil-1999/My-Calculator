@@ -1,0 +1,28 @@
+@media (max-width: 790px) {
+    .btn {
+        display: block;
+        flex-direction: row;
+        margin: 0;
+        /* background-color: aqua; */
+    }
+    .display,
+    .ans,
+    .numbers,
+    .operators {
+        width: 80%;
+        display: block;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .numbers,
+    .operators {
+        width: 100%;
+    }
+
+    .numbers {
+        border-right: none;
+        border-bottom: 1px solid #000;
+    }
+}
