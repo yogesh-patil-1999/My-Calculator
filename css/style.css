@@ -91,8 +91,7 @@ header h1 {
     padding-left: 9%;
 }
 
-.number:link,
-.number:visited {
+.number {
     width: 50px;
     padding: 10px;
     text-align: center;
@@ -106,9 +105,18 @@ header h1 {
     font-weight: 400;
 }
 
+.number:link,
+.number:visited {
+    background-color: #e99041;
+}
+
 .number:hover,
 .number:active {
     background-color: #cf6d17;
+}
+
+.a {
+    background-color: #e99041;
 }
 
 .a:link,
