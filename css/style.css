@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*#e67e22 - dark 
+#e99041 - light
+#cf6d17 - darkest
+*/
+
+body {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: #e99041;
+    height: 100vh;
+    font-size: 1rem;
+    background: linear-gradient(to top left, #1e7944, #0d2b49);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+/* --------------------------------------Basic SetUp------------------------------ */
+
+.display {
+    border: 1px solid #000;
+}
+
+.display,
+.ans {
+    width: 80%;
+    height: 50px;
+    color: #201205;
+    background-color: rgba(173, 173, 173, 0.61);
+    margin: auto;
+    cursor: text;
+    border-bottom: 1px solid #000000;
+    padding: 1%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.ans {
+    font-weight: 500;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.btn {
+    display: flex;
+    padding: 0 2%;
+    width: 80%;
+    /* background-color: black; */
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+/* -------------------------------------- Numbers  SetUp------------------------------ */
+
+.numbers {
+    flex: 1;
+    padding: 2% 12%;
+    width: 55%;
+    margin: 0 auto;
+    border-right: 1px solid #000000;
+}
+
+.operators {
+    width: 45%;
+    padding: 2%;
+    padding-left: 9%;
+}
+
+.number {
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin: 2%;
+    background-color: #e99041;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.number:hover,
+.number:active {
+    background-color: #cf6d17;
+}
+
+.a:hover,
+.a:active,
+.a:visited {
+    background-color: rgba(79, 173, 42, 0.945);
+}
