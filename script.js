@@ -27,6 +27,7 @@ for (let i = 0; i < numbers.length; i++) {
             numbers[i].textContent !== "←" &&
             numbers[i].textContent !== "cls"
         ) {
+            ans.style.backgroundColor = "rgba(173, 173, 173, 0.61)";
             if (numbers[i].textContent === ".")
                 temp = temp + numbers[i].textContent;
             else temp = temp + Number(numbers[i].textContent);
