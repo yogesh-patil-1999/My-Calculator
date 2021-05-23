@@ -41,7 +41,7 @@ for (let i = 0; i < numbers.length; i++) {
             evalAns = evalAns.replace(ans, "");
             display.textContent = "Expression";
             ans.textContent = "Ans";
-            ans.style.backgroundColor = "rgb(105, 210, 60)";
+            ans.style.backgroundColor = "rgba(173, 173, 173, 0.61)";
         } else if (numbers[i].textContent === "←") {
             if (temp[temp.length - 1] === " ") {
                 temp = temp.slice(0, -2);
