@@ -13,7 +13,7 @@
 body {
     display: flex;
     font-family: "Roboto", sans-serif;
-    color: #e99041;
+    color: #e67e22;
     height: 100vh;
     font-size: 1rem;
     background: linear-gradient(to top left, #1e7944, #0d2b49);
@@ -110,8 +110,7 @@ header h1 {
     background-color: #e99041;
 }
 
-.number:hover,
-.number:active {
+.number:hover {
     background-color: #cf6d17;
 }
 
@@ -124,7 +123,6 @@ header h1 {
     background-color: #e99041;
 }
 
-.a:hover,
-.a:active {
+.a:hover {
     background-color: rgba(79, 173, 42, 0.945);
 }

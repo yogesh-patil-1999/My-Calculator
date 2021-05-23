@@ -17,6 +17,12 @@ for (let i = 0; i < numbers.length; i++) {
             numbers[i].textContent !== "**" &&
             numbers[i].textContent !== "/" &&
             numbers[i].textContent !== "%" &&
+            numbers[i].textContent !== "(" &&
+            numbers[i].textContent !== ")" &&
+            numbers[i].textContent !== "[" &&
+            numbers[i].textContent !== "]" &&
+            numbers[i].textContent !== "{" &&
+            numbers[i].textContent !== "}" &&
             numbers[i].textContent !== "=" &&
             numbers[i].textContent !== "←" &&
             numbers[i].textContent !== "cls"
@@ -29,7 +35,7 @@ for (let i = 0; i < numbers.length; i++) {
             sum = eval(temp);
             ans.textContent = sum;
             temp = String(sum);
-            ans.style.backgroundColor = "rgba(79, 173, 42, 0.945) ";
+            ans.style.backgroundColor = "#e67e22";
         } else if (numbers[i].textContent === "cls") {
             temp = temp.replace(temp, "");
             evalAns = evalAns.replace(ans, "");
