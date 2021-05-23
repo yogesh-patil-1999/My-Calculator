@@ -35,7 +35,7 @@ for (let i = 0; i < numbers.length; i++) {
             sum = eval(temp);
             ans.textContent = sum;
             temp = String(sum);
-            ans.style.backgroundColor = "#e67e22";
+            ans.style.backgroundColor = "rgb(105, 210, 60)";
         } else if (numbers[i].textContent === "cls") {
             temp = temp.replace(temp, "");
             evalAns = evalAns.replace(ans, "");
